@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+.well sidebar-nav{
+	color:red;
+}
+
+.well a{
+    color:red;
+}
+#iconheader 
+{
+	font-size: 12px;
+	font-weight: 200;
+	color: #663333;
+	background-color: #eeeeee;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px;
+	margin-bottom: 0px;
+
+}
+#tablehead 
+{
+	font-size: 12px;
+	font-weight: 200;
+	color: inherit;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+#table {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#table th,
+#table td {
+	padding: 6px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+#iconheader li
+{
+	display:display;
+	width:120px;
+	float:left;
+	list-style:none;
+	
+}
+.fileoptions
+{
+	display:none;
+}
+.nav-list > .redactive > a, .nav-list > .redactive > a:hover, .nav-list > .redactive > a:focus {
+    background-color: red;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+.table tbody tr:hover td , .table tbody tr:hover th {
+    background-color: red;
+	color:white;
+}
+
+.table tbody tr:hover .back , .table tbody tr:hover .back {
+    background-color: red;
+	color:white;
+}
+.active{
+	background-color: red;
+	color:#FFFFFF;
+}
+#userdiv
+{
+	width:200px;
+	height:100%;
+	float:right;
+	position:relative;
+}
+#userimage
+{
+	width:50px;
+	height:40px;
+	border:thick;
+	position:absolute;
+}
+
+#logo 
+{
+    height: 30px;
+    padding: 10px;
+    width: 30px;
+	
+}
+
+#profile 
+{
+    height: 30px;
+    padding: 10px;
+    width: 30px;
+	
+}
+
+#userimage  img
+{
+	padding:0px;
+	border:solid 2px;
+	color:#FFFFFF;
+	margin-top:10px;
+
+
+}
+#username
+{
+	width:80px;
+	height:40px;
+	position:absolute;
+	left:50px;
+	padding-top:5px;
+	margin-left:-30px;
+
+
+}
+#username li
+{
+	float:left;
+	list-style:none;
+	color:red;
+	font-size:9px;
+	
+}
+#filemanager
+{
+	float:left;
+	width:300px;
+	height:100%;
+	font-size:30px;
+	font-style:inherit;
+	color:red;
+}
+#file
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: bold;
+}
+#setsort
+{
+    float: right;
+    padding-right: 160px;
+    
+}
+
+table a
+{
+    color:red;
+}
+
+
+
+#setsort li a:hover{
+    background: red;
+}
+
+.btn-group li a:hover{
+    background: red;
+}
+
+.back:hover{
+    color: white;
+}
+#loader{
+    
+    height: 40px;
+    width: 60px;
+    position: relative;
+    margin-left: 220px;
+    margin-top: -50px;
+    
+}
+
+#extension{
+    
+    height: 20px;
+    width: 40px;
+    position: relative;
+    margin-left: 220px;
+    margin-top: -40px;
+    padding-top: 8px;
+    padding-left: 5px;
+    font-size: 12px;
+    
+    
+    
+}
+
